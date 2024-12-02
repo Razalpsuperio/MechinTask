@@ -175,11 +175,11 @@ const Home = () => {
   const handleEditUser = () => {
     if (validateForm()) {
       // Update user
-      setUsers(prev => 
-        prev.map(user => 
-          user.id === currentUser.id ? currentUser : user
-        )
-      );
+      // setUsers(prev => 
+      //   prev.map(user => 
+      //     user.id === currentUser.id ? currentUser : user
+      //   )
+      // );
       
       // Reset form and close modal
       setErrors({});
